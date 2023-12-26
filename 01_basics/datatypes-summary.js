@@ -40,3 +40,26 @@ const myFunction=function(){
     console.log("Hello Bro");
 }
 
+// ===========================================================================
+
+// Stack(Primitives) , Heap(Non-Primitives)
+
+let myName="Chhotu"
+
+let anotherName=myName
+anotherName="Abhay raj"
+
+console.log(myName);
+console.log(anotherName);
+
+let userOne={
+    email:"aloolelo@gmail.com",
+    upi:"aloodedo@paytm"
+}
+
+let userTwo=userOne
+
+userTwo.email="mirchilelo@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
