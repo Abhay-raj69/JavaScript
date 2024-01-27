@@ -43,10 +43,28 @@ const users=[
 
 // console.log(users[1].id);
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
 
-console.log(Object.entries(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('profit'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+const course={
+    coursename:"JavaScript Series in hindi",
+    price:1000,
+    courseInstructor:"Rohit"
+}
+// course.courseInstructor
+
+const {courseInstructor:instructor}=course
+console.log(instructor);
+
+
+// {
+//     "name":"Rohit",
+//     "coursename":"js in hindi"
+//     "price":"free"
+// }
