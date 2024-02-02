@@ -12,8 +12,10 @@ const myNumbers=[1,2,3,4,5,6,7,8,9,10]
 
 const myNewNums=myNumbers.map((nums)=>{
     return nums*10
-}).map((nums)=>{
-    nums+1
+}).map((gums)=>{
+    return gums+1
+}).filter((bums)=>{
+    return bums>=60
 })
 
 console.log(myNewNums);
